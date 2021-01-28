@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div>
+            <label style="color:cornflowerblue;" for="Input"  > Tasks :   </label>
+            <input type="text" placeholder="enter tasks here" name="input" id="input"> Date:
+            <input type="text" name="inputDate" placeholder="year - month - day" id="inputDate">
+         <button class="btn btn-outline-danger  addButton">Add Task</button> <button class="btn btn-outline-danger m-4 clearButton">Clear Tasks</button>
+         <input type="text" placeholder="Search tasks here ....." name="search" id="search">
+
+         <select name="select" class="btn btn-outline Danger" id="selectoption">
+            <option value="ascending">ascending</option>
+            <option value="descending">descending</option>
+
+         </select>
+
+        </div>
+
+        <ul class="listItems">
+
+        </ul>
+
+    </div>
+
+
+    <script src="./todoapp.js"></script>
+
+</body>
+</html>
